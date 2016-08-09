@@ -168,8 +168,8 @@ public:
 			{
 				BinaryTreeNode<T>* top = s.top();
 				cout << top->_data << " ";
-				cur = top->_right;
 				s.pop();
+				cur = top->_right;
 			}
 		}
 		cout << endl;
